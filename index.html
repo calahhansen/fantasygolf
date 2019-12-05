@@ -1,0 +1,74 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fantasy Golf</title>
+
+    <!-- Bootstrap 4 CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap 4, JQuery, & Popper Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <!-- Jumbotron Name of Site -->
+    <div class="jumbotron text-center" id="jumbotron">
+        <h1>The Weekly Golfer</h1>
+        <p>Remember to check the resize for mobile devices to view responsiveness from desktop to mobile</p>
+    </div>
+    <!-- Navigation Tabs with dropdown and justified -->
+    <div class="body-container">
+        <ul class="nav nav-tabs nav-justified">
+            <li class="nav-item">
+                <a class="nav-link active" href="index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link" href="schedule.html">Schedule</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="myTeam.html">My Team</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="myAccount.html">My Account</a>
+            </li>
+        </ul>
+        <!-- Standings/News Container 66.6/33.3% split -->
+        <div class="container-fluid">
+            <div class="row">
+                <!-- Standings Container 66.6% -->
+                <div class="col-sm-8 bg-success">
+                    <h3>Standings</h3>
+                    <!-- Grid Title Row - responsive columns with bootstrap -->
+                    <div class="row" id="standings-cols">
+                        <div class="col">Rank</div>
+                        <div class="col">Team</div>
+                        <div class="col">Manager</div>
+                        <div class="col">Draft Earnings</div>
+                        <div class="col">Free Agent Earnings</div>
+                        <div class="col">Total Earnings</div>
+                    </div>
+                </div>
+                <!-- News scraped from various sources 33.3% -->
+                <div class="col-sm-4 bg-warning" id="news-container">
+                    <h3>In the News</h3>
+                    <div id="articles">
+                        <h5>News Article Title:</h5><p>Lorem ipsum dolor...click on title to view full article. Pending scrape
+                            and save from PGA, ESPN, i.e. obtain developer api keys</p>
+                        <h5>News Article Title:</h5><p>Lorem ipsum dolor...click on title to view full article. Pending scrape
+                            and save from PGA, ESPN, i.e. obtain developer api keys</p>
+                        <h5>News Article Title:</h5><p>Lorem ipsum dolor...click on title to view full article. Pending scrape
+                            and save from PGA, ESPN, i.e. obtain developer api keys</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,44 @@
+/* Universal styling */
+
+body {
+    background-image: url('images/grass.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Log-in/Register styling */
+
+/* Index styling */
+.jumbotron {
+    background-color: transparent;
+}
+
+#jumbotron {
+    color: whitesmoke;
+}
+
+.body-container {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding: 10px;
+  background-color: greenyellow;
+  /* background-image: url('/images/grass.png'); */
+}
+
+#standings-cols {
+    text-emphasis-style: bold;
+    color: whitesmoke;
+}
+
+#articles {
+    background-color: whitesmoke;
+    padding: 10px;
+}
+
+/* Tournaments styling */
+
+/* My Team styling */
+
+/* My Account styling */
